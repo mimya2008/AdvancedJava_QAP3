@@ -12,16 +12,16 @@ public class Student extends Person {
     }
 
     // getters and setters
-    public String getMyIdNum() {return myIdNum;}
+    public String getIdNum() {return myIdNum;}
 
-    public void setMyIdNum(String myIdNum) {
-        this.myIdNum = myIdNum;
+    public void setIdNum(String idNum) {
+        this.myIdNum = idNum;
     }
 
-    public double getMyGPA() {return myGPA;}
+    public double getGPA() {return myGPA;}
 
-    public void setMyGPA(double myGPA) {
-        this.myGPA = myGPA;
+    public void setGPA(double gpa) {
+        this.myGPA = gpa;
     }
 
     // To String

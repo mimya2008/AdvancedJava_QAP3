@@ -12,28 +12,29 @@ public class Person {
     }
 
     // getters setters
-    public String getMyName() {
+    public String getName() {
         return myName;
     }
 
-    public void setMyName(String myName) {
-        this.myName = myName;
+    public void setName(String name) {
+        this.myName = name;
     }
 
-    public int getMyAge() {
+    public int getAge() {
         return myAge;
     }
 
-    public void setMyAge(int myAge) {
-        this.myAge = myAge;
+
+    public void setAge(int age) {
+        this.myAge = age;
     }
 
-    public String getMyGender() {
+    public String getGender() {
         return myGender;
     }
 
-    public void setMyGender(String myGender) {
-        this.myGender = myGender;
+    public void setGender(String gender) {
+        this.myGender = gender;
     }
 
     // to String
