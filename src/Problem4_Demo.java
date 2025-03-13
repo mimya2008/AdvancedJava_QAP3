@@ -1,4 +1,4 @@
-// Demo.java - Test class for different shapes
+// Test class for different shapes
 public class Problem4_Demo {
     public static void main(String[] args) {
         // Creating shape objects
