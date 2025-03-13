@@ -1,5 +1,6 @@
 // This Abstract class Shape - Represents a generic shape with a name, area, and perimeter.
-public abstract class Shape {
+
+public abstract class Shape implements Scalable {
     protected String name;
 
     // Constructor
@@ -7,7 +8,7 @@ public abstract class Shape {
         this.name = name;
     }
 
-    // Abstract methods to be implemented in subclasses
+    // Abstract methods  for area and perimeter
     public abstract double getArea();
     public abstract double getPerimeter();
 
