@@ -13,5 +13,10 @@ public class EquilateralTriangle extends Triangle {
     public double getArea() {
         return (Math.sqrt(3) / 4) * side * side;
     }
+
+    @Override
+    public void scale(double factor) {
+        side *= factor;
+    }
 }
 
